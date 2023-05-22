@@ -1,7 +1,7 @@
 import atexit
 import sys
 from abc import ABC, abstractmethod
-
+# empty line goes here
 from geometry_msgs.msg import Twist, TwistStamped
 from rclpy.node import Node
 from rclpy.qos import qos_profile_system_default
