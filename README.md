@@ -1,5 +1,5 @@
 # keyboard_teleop
-Keyboard Teleop for ROS2 with two modes "incremental" and "hold"
+Keyboard Teleop f or ROS2 with two modes "incremental" and "hold"
 
 # Installation
 
