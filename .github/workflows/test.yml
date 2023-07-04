@@ -12,7 +12,7 @@ jobs:
       - name: Install curl
         run: |
           sudo apt-get update
-          sudo apt-get install -y curl
+          sudo apt-get install -y curl tree
 
       - name: Build ROS Deb
         uses: jspricke/ros-deb-builder-action@main
@@ -28,5 +28,5 @@ jobs:
           NEXUS_USERNAME: ${{ secrets.NEXUS_USERNAME }}
           NEXUS_PASSWORD: ${{ secrets.NEXUS_PASSWORD }}
         run: |
-          ls -la; 
+          tree; 
           curl -v -u "$NEXUS_USERNAME:$NEXUS_PASSWORD" -H "Content-Type: multipart/form-data" --data-binary "@.some.deb" "http://95.216.32.240:5514/repository/keyboard_teleop/";
