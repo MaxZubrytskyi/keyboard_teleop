@@ -28,5 +28,6 @@ jobs:
           NEXUS_USERNAME: ${{ secrets.NEXUS_USERNAME }}
           NEXUS_PASSWORD: ${{ secrets.NEXUS_PASSWORD }}
         run: |
-          tree; 
-          curl -v -u "$NEXUS_USERNAME:$NEXUS_PASSWORD" -H "Content-Type: multipart/form-data" --data-binary "@.some.deb" "http://95.216.32.240:5514/repository/keyboard_teleop/";
+          tree;
+          deb_file=$(find . -name "*.deb");
+          curl -v -u "$NEXUS_USERNAME:$NEXUS_PASSWORD" -H "Content-Type: multipart/form-data" --data-binary "@$deb_file" "http://95.216.32.240:5514/repository/keyboard_teleop/";
