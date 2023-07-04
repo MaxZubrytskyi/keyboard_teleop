@@ -1,16 +1,16 @@
 Package: ros-humble-keyboard-teleop
 Architecture: amd64
-Version: 0-2023.07.04.05.36
+Version: 0-2023.07.04.05.37
 Priority: optional
 Section: misc
 Maintainer: Tony Najjar <tony.najjar.1997@gmail.com>
 Installed-Size: 53
 Depends: pynput, ros-humble-geometry-msgs, ros-humble-rclpy
-Filename: ./ros-humble-keyboard-teleop_0-2023.07.04.05.36_amd64.deb
-Size: 8202
-MD5sum: 7d7a810f773089a1f0216627b1590507
-SHA1: b83d901c7c32406e44172e980005f752655d9b7a
-SHA256: 9e36691cb2ad1685ba2215767d5ab8fd657eb965e222a3a0656e04ad91e7f2ce
-SHA512: a52c28cae51c17e186ca81492a0f0b634ac7209ef4ee3b9b69341cc49486504b30a8e1b6f8291bc7b3a95b1e1fdd51b8c1430c00a3e8364b325b665fbd877186
+Filename: ./ros-humble-keyboard-teleop_0-2023.07.04.05.37_amd64.deb
+Size: 8188
+MD5sum: 3fb56c269e3ecb1d84926ba131378279
+SHA1: 3e1abec14e96804c1cbe59127b328cbf90e98e48
+SHA256: b303b22da6ae5a90f5d98b8e71a93b1c656ff15806d5c15d7e586984cec2a304
+SHA512: 9544d6bd2572b88c6579be3e1b15ee858ac3d44430201d907355d9b4f18dcce1b25c0a987446922d54c40c8b32d485f5cbba31d35959fe3fab9ee51b293eb927
 Description: A text-based interface to send a robot movement commands.
 
