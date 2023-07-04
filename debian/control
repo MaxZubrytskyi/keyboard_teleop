@@ -1,0 +1,12 @@
+Source: keyboard_teleop
+Section: release-13.6.x
+Priority: optional
+Maintainer: Maksym Zubrytskyi <test@gtest.com>
+Build-Depends: debhelper (>= 9)
+
+Package: keyboard_teleop
+Architecture: arm64
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Built-Using: ${misc:Built-Using}
+Description: Test desk to show me
+Homepage: https://github.com/MaxZubrytskyi/keyboard_teleop
