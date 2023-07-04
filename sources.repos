@@ -2,4 +2,4 @@ repositories:
   keyboard_teleop:
     type: git
     url: https://github.com/MaxZubrytskyi/keyboard_teleop
-    version: 654d132ab2cba6928f754026b310019fe20191a5
+    version: 4e6c23b17af3845ddfa79e66fc3d91c3e1451d65
